@@ -1,7 +1,7 @@
 import { Box, Typography, Button } from '@mui/material';
 import { useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { ExitToApp, WindPower } from '@mui/icons-material';
+import { ExitToApp } from '@mui/icons-material';
 import { userSelector } from '../../features/auth';
 import { useGetListQuery } from '../../services/TMDB';
 import { RatedCards } from '..';

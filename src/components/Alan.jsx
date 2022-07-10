@@ -29,7 +29,8 @@ const useAlan = () => {
           fetchToken();
         } else if (command === 'logout') {
           localStorage.clear();
-          history.push('/');
+          window.location.href = '/';
+          // history.push('/');
         } else if (command === 'changeMode') {
           if (mode === 'light') {
             setMode('light');
